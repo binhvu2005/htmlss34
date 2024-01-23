@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .mychange{
+            background-color: yellow;
+            color: red;
+        }
+    </style>
+</head>
+<body>
+    <h1 id="a" >trước tiên</h1>
+    <button onclick="change()" >Prees to say hide text</button>
+    <script>
+      let h1=document.getElementById("a").classList
+        function change(){
+            h1.add("mychange")
+        }
+    </script>
+</body>
+</html>
